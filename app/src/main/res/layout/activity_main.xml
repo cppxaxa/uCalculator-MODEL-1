@@ -35,21 +35,21 @@
                 android:layout_height="wrap_content"
                 android:text="1"
                 android:id="@+id/btn1"
-                android:onClick="set1" />
+                android:onClick="setSymbol" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="2"
                 android:id="@+id/btn2"
-                android:onClick="set2" />
+                android:onClick="setSymbol" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="3"
                 android:id="@+id/btn3"
-                android:onClick="set3" />
+                android:onClick="setSymbol" />
         </LinearLayout>
 
         <LinearLayout
@@ -62,21 +62,21 @@
                 android:layout_height="wrap_content"
                 android:text="4"
                 android:id="@+id/btn4"
-                android:onClick="set4" />
+                android:onClick="setSymbol" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="5"
                 android:id="@+id/btn5"
-                android:onClick="set5" />
+                android:onClick="setSymbol" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="6"
                 android:id="@+id/btn6"
-                android:onClick="set6" />
+                android:onClick="setSymbol" />
         </LinearLayout>
 
         <LinearLayout
@@ -89,14 +89,14 @@
                 android:layout_height="wrap_content"
                 android:text="7"
                 android:id="@+id/btn7"
-                android:onClick="set7" />
+                android:onClick="setSymbol" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="8"
                 android:id="@+id/btn8"
-                android:onClick="set8" />
+                android:onClick="setSymbol" />
 
             <Button
                 android:layout_width="wrap_content"
@@ -104,7 +104,7 @@
                 android:text="9"
                 android:id="@+id/btn9"
                 android:layout_gravity="center_horizontal"
-                android:onClick="set9" />
+                android:onClick="setSymbol" />
         </LinearLayout>
 
         <Space
@@ -123,21 +123,21 @@
                 android:layout_height="wrap_content"
                 android:text="+"
                 android:id="@+id/btnPlus"
-                android:onClick="setPlus" />
+                android:onClick="setSymbol" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"
                 android:id="@+id/btn0"
-                android:onClick="set0" />
+                android:onClick="setSymbol" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="*"
                 android:id="@+id/btnAsterisk"
-                android:onClick="setAsterisk" />
+                android:onClick="setSymbol" />
         </LinearLayout>
 
         <LinearLayout
@@ -151,7 +151,7 @@
                 android:layout_height="wrap_content"
                 android:text="-"
                 android:id="@+id/btnMinus"
-                android:onClick="setMinus" />
+                android:onClick="setSymbol" />
 
             <Button
                 android:layout_width="wrap_content"
@@ -165,7 +165,7 @@
                 android:layout_height="wrap_content"
                 android:text="/"
                 android:id="@+id/btnSlash"
-                android:onClick="setSlash" />
+                android:onClick="setSymbol" />
         </LinearLayout>
 
     </LinearLayout>

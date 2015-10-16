@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -27,49 +28,12 @@ public class MainActivity extends ActionBarActivity {
         this.tvOuput.setText(this.tvOuput.getText()+symbol);
     }
 
-    public void set0(View v){
-        setTVOutput("0");
-        //Toast.makeText(getApplicationContext(),"Hello", Toast.LENGTH_SHORT).show();
+    public void setSymbol(View v){
+        Button b;
+        b = (Button)v;
+        setTVOutput(b.getText().toString());
     }
-    public void set1(View v){
-        setTVOutput("1");
-    }
-    public void set2(View v){
-        setTVOutput("2");
-    }
-    public void set3(View v){
-        setTVOutput("3");
-    }
-    public void set4(View v){
-        setTVOutput("4");
-    }
-    public void set5(View v){
-        setTVOutput("5");
-    }
-    public void set6(View v){
-        setTVOutput("6");
-    }
-    public void set7(View v){
-        setTVOutput("7");
-    }
-    public void set8(View v){
-        setTVOutput("8");
-    }
-    public void set9(View v){
-        setTVOutput("9");
-    }
-    public void setPlus(View v){
-        setTVOutput("+");
-    }
-    public void setMinus(View v){
-        setTVOutput("-");
-    }
-    public void setAsterisk(View v){
-        setTVOutput("*");
-    }
-    public void setSlash(View v){
-        setTVOutput("/");
-    }
+
     public void fEqual(View v){
         this.tvOuput.setText(this.evaluator.parse(this.tvOuput.getText().toString()));
     }
